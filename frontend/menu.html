@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SuperStore - Menu</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to SuperStore</h1>
+        <nav>
+            <ul>
+                <li><a href="javascript:void(0);" onclick="showHome()">Home</a></li>
+                <li><a href="javascript:void(0);" onclick="showContact()">Contact</a></li>
+                <li><a href="javascript:void(0);" onclick="showCart()">Cart</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="center-container" id="main-content">
+        <h2>Explore our Products</h2>
+        <input type="text" placeholder="Search Products">
+
+        <!-- Categories and Subcategories -->
+        <h3>Categories</h3>
+<ul>
+    <li>Makeup
+        <ul>
+            <li>Face
+                <ul>
+                    <li>Foundation</li>
+                    <li>Concealer</li>
+                    <li>Blush</li>
+                    <li>Highlighter</li>
+                </ul>
+            </li>
+            <li>Lips
+                <ul>
+                    <li>Lipstick</li>
+                    <li>Lip Gloss</li>
+                    <li>Lip Liner</li>
+                </ul>
+            </li>
+            <li>Eyes
+                <ul>
+                    <li>Eye Liner</li>
+                    <li>Mascara</li>
+                    <li>Kajal</li>
+                    <li>Eye Shadow</li>
+                </ul>
+            </li>
+            <li>Nails
+                <ul>
+                    <li>Nail Polish</li>
+                    <li>Nail Care</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Skincare
+        <ul>
+            <li>Face Care
+                <ul>
+                    <li>Cleanser</li>
+                    <li>Toner</li>
+                    <li>Serum</li>
+                    <li>Moisturizer</li>
+                    <li>Sunscreen</li>
+                </ul>
+            </li>
+            <li>Body Care
+                <ul>
+                    <li>Body Wash</li>
+                    <li>Body Lotion</li>
+                    <li>Body Scrub</li>
+                </ul>
+            </li>
+            <li>Hair Care
+                <ul>
+                    <li>Shampoo</li>
+                    <li>Conditioner</li>
+                    <li>Hair Oil</li>
+                    <li>Hair Mask</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Accessories
+        <ul>
+            <li>Men
+                <ul>
+                    <li>Watches</li>
+                    <li>Belts</li>
+                    <li>Wallets</li>
+                    <li>Sunglasses</li>
+                </ul>
+            </li>
+            <li>Women
+                <ul>
+                    <li>Jewelry</li>
+                    <li>Handbags</li>
+                    <li>Watches</li>
+                    <li>Sunglasses</li>
+                    <li>Scarves</li>
+                </ul>
+            </li>
+            <li>Boys
+                <ul>
+                    <li>Belts</li>
+                    <li>Sunglasses</li>
+                    <li>Caps</li>
+                </ul>
+            </li>
+            <li>Girls
+                <ul>
+                    <li>Handbags</li>
+                    <li>Hairbands</li>
+                    <li>Watches</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Fashion
+        <ul>
+            <li>Men
+                <ul>
+                    <li>Shirts</li>
+                    <li>T-Shirts</li>
+                    <li>Jeans</li>
+                    <li>Pants</li>
+                    <li>Jackets</li>
+                    <li>Suits</li>
+                </ul>
+            </li>
+            <li>Women
+                <ul>
+                    <li>Dresses</li>
+                    <li>Kurti</li>
+                    <li>Saree</li>
+                    <li>Tops</li>
+                    <li>Jeans</li>
+                    <li>Skirts</li>
+                    <li>Leggings</li>
+                    <li>Active Wear</li>
+                </ul>
+            </li>
+            <li>Boys
+                <ul>
+                    <li>T-Shirts</li>
+                    <li>Shirts</li>
+                    <li>Pants</li>
+                    <li>Shorts</li>
+                    <li>Jackets</li>
+                </ul>
+            </li>
+            <li>Girls
+                <ul>
+                    <li>Dresses</li>
+                    <li>Skirts</li>
+                    <li>T-Shirts</li>
+                    <li>Shorts</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Footwear
+        <ul>
+            <li>Men
+                <ul>
+                    <li>Formal Shoes</li>
+                    <li>Casual Shoes</li>
+                    <li>Sports Shoes</li>
+                    <li>Sandals</li>
+                </ul>
+            </li>
+            <li>Women
+                <ul>
+                    <li>Heels</li>
+                    <li>Flats</li>
+                    <li>Sandals</li>
+                    <li>Boots</li>
+                </ul>
+            </li>
+            <li>Boys
+                <ul>
+                    <li>Sneakers</li>
+                    <li>Sandals</li>
+                    <li>Sports Shoes</li>
+                </ul>
+            </li>
+            <li>Girls
+                <ul>
+                    <li>Sandals</li>
+                    <li>Sneakers</li>
+                    <li>Boots</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Electronics
+        <ul>
+            <li>Mobiles
+                <ul>
+                    <li>Smartphones</li>
+                    <li>Feature Phones</li>
+                    <li>Accessories
+                        <ul>
+                            <li>Chargers</li>
+                            <li>Headphones</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Laptops
+                <ul>
+                    <li>Ultrabooks</li>
+                    <li>Gaming Laptops</li>
+                    <li>Business Laptops</li>
+                    <li>Accessories
+                        <ul>
+                            <li>Mouse</li>
+                            <li>Keyboard</li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>Televisions
+                <ul>
+                    <li>Smart TV</li>
+                    <li>LED TV</li>
+                    <li>OLED TV</li>
+                </ul>
+            </li>
+            <li>Cameras</li>
+        </ul>
+    </li>
+    <li>Books
+        <ul>
+            <li>Fiction</li>
+            <li>Non-Fiction</li>
+            <li>Educational</li>
+            <li>Comics</li>
+        </ul>
+    </li>
+    <li>Toys and Games
+        <ul>
+            <li>Action Figures</li>
+            <li>Board Games</li>
+            <li>Puzzles</li>
+            <li>Building Blocks</li>
+            <li>Remote Control Toys</li>
+            <li>Soft Toys</li>
+        </ul>
+    </li>
+    <li>Pet Supplies
+        <ul>
+            <li>Dog Food</li>
+            <li>Cat Food</li>
+            <li>Pet Toys</li>
+            <li>Pet Grooming</li>
+            <li>Pet Health</li>
+        </ul>
+    </li>
+    <li>Stationery
+        <ul>
+            <li>Notebooks</li>
+            <li>Pens</li>
+            <li>Pencils</li>
+            <li>Markers</li>
+            <li>Art Supplies</li>
+            <li>Office Supplies</li>
+        </ul>
+    </li>
+    <li>Home Appliance
+        <ul>
+            <li>Refrigerators</li>
+            <li>Washing Machines</li>
+            <li>AC</li>
+            <li>Vacuum Cleaner</li>
+            <li>Microwave</li>
+        </ul>
+    </li>
+    <li>Sports and Fitness
+        <ul>
+            <li>Outdoor Sports
+                <ul>
+                    <li>Cricket</li>
+                    <li>Football</li>
+                    <li>Badminton</li>
+                </ul>
+            </li>
+            <li>Gym Equipment
+                <ul>
+                    <li>Dumbbell</li>
+                    <li>Treadmill</li>
+                    <li>Resistance Bands</li>
+                </ul>
+            </li>
+            <li>Yoga Accessories
+                <ul>
+                    <li>Yoga Mats</li>
+                    <li>Blocks</li>
+                    <li>Straps</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Health and Wellness
+        <ul>
+            <li>Vitamins & Supplements</li>
+            <li>Personal Care
+                <ul>
+                    <li>Feminine Hygiene</li>
+                    <li>Toiletries</li>
+                </ul>
+            </li>
+            <li>First Aid Supplies</li>
+        </ul>
+    </li>
+    <li>Car Accessories
+        <ul>
+            <li>Seat Covers</li>
+            <li>Floor Mats</li>
+            <li>Car Organizers</li>
+            <li>Dash Camera</li>
+            <li>Air Fresheners</li>
+            <li>GPS</li>
+        </ul>
+    </li>
+    <li>Furniture
+        <ul>
+            <li>Living Rooms
+                <ul>
+                    <li>Sofa</li>
+                    <li>Coffee Table</li>
+                    <li>TV Units</li>
+                </ul>
+            </li>
+            <li>Bedrooms
+                <ul>
+                    <li>Beds</li>
+                    <li>Wardrobe</li>
+                    <li>Night Stand</li>
+                </ul>
+            </li>
+            <li>Office Furniture
+                <ul>
+                    <li>Office Chairs</li>
+                    <li>Desks</li>
+                    <li>Cabinets</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Groceries
+        <ul>
+            <li>Fruits
+                <ul>
+                    <li>Apple</li>
+                    <li>Orange</li>
+                    <li>Mango</li>
+                </ul>
+            </li>
+            <li>Vegetables
+                <ul>
+                    <li>Tomato</li>
+                    <li>Potato</li>
+                    <li>Spinach</li>
+                </ul>
+            </li>
+            <li>Rice & Grains
+                <ul>
+                    <li>Rice</li>
+                    <li>Quinoa</li>
+                </ul>
+            </li>
+            <li>Snacks
+                <ul>
+                    <li>Chips</li>
+                    <li>Biscuits</li>
+                    <li>Chocolate</li>
+                </ul>
+            </li>
+            <li>Dairy
+                <ul>
+                    <li>Curd</li>
+                    <li>Milk</li>
+                    <li>Cheese</li>
+                    <li>Yogurt</li>
+                </ul>
+            </li>
+        </ul>
+    </li>
+    <li>Gardening
+        <ul>
+            <li>Seeds</li>
+            <li>Soil & Fertilizers</li>
+            <li>Gardening Plots</li>
+            <li>Plant Pots</li>
+        </ul>
+    </li>
+    <li>Bike Accessories
+        <ul>
+            <li>Helmets</li>
+            <li>Bike Covers</li>
+            <li>Bike Lights</li>
+            <li>Handlebar Bags</li>
+            <li>Repair Kits</li>
+        </ul>
+    </li>
+</ul>
+
+
+
+    </div>
+
+    <div id="contact-info" style="display: none;">
+        <h3>Contact Us</h3>
+        <p>Manish: 8778377991</p>
+        <p>Nivethika: 8903831162</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 SuperStore - All rights reserved</p>
+    </footer>
+
+    <script>
+        function showContact() {
+            document.getElementById("main-content").style.display = "none";
+            document.getElementById("contact-info").style.display = "block";
+        }
+
+        function showHome() {
+            document.getElementById("main-content").style.display = "block";
+            document.getElementById("contact-info").style.display = "none";
+        }
+
+        function showCart() {
+            alert("Cart functionality is not implemented yet.");
+        }
+    </script>
+</body>
+</html>
